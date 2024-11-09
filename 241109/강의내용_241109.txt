@@ -1,0 +1,161 @@
+웹1 수업 목표
+: html5 언어
+: css3 스타일시트
+: 무조건 기본적으로 알아야하는 지식!!
+: 내년도 초등학교 교과서
+
+> 코딩(coding)을 학습
+
+> 프로그래밍x
+
+> 프로그램을 개발
+
+> 문제인식 // 해결 기능 구현
+
+> 오늘의 운세 앱
+
+> 개발 // 니즈
+
+> html5 : Hyper Text Markup Language
+> 5 : 버전
+> API 기능
+> Hyper : ~그 이상의
+> Text : 글자
+> Markup : 감싸다
+> Language : 언어
+
+html5라는 언어를 통해서 사용할 수 있는 태그(Tag) 존재
+
+
+*코딩을 학습 오해
+1.수학을 잘해야 하나요?
+
+2.영어를 잘해야 하나요?
+
+3.누구나 코딩을 할 수 있나요?
+
+4.전공자가 아니면 힘든가요?
+
+5.AI로 인해 코더 및 개발자의 수명 끝인가요?
+
+과거에는 메모장, wordpad와 같은 문서용 파일을 활용해서 html언어 안에있는 태그를 사용 및 코딩을 했지만, 지금은 Web Editor를 활용해서 코딩을 합니다!
+
+IDE VS Web Editor
+
+IDE : Integrated Development Environment
+(*통합개발환경)
+(*Eclipse // IntelliJ // Visual Studio)
+(*코딩 & 프로그래밍을 할 때 통합적인 관리 // 유료 // 기가)
+
+Web Editor :
+Atom // Brackets // Pycharm => Visual Studio Code
+=> MS // 확장프로그램
+
+Bug > Debuging
+
+
+Root Folder : 
+- 코드 > img (*상대 // 절대)
+
+*VS Code 초기화 1단계
+C:\Users\user\.vscode
+C:\Users\user\AppData\Roaming\Code
+
+*VS Code 초기화 2단계
+제어판 > vscode 삭제
+
+로컬컴퓨터 > VS code
+
+GUI : Graphic User Interface
+CLI : Command Line Interface
+
+터미널 개념
+컴퓨터 : 슈퍼컴퓨터 1대 > 20명
+
+cd desktop
+
+mkdir web01
+
+cd web01
+
+mkdir 241109
+
+cd 241109
+
+code .
+
+
+index.html
+
+Boiler Plate
+
+Korean Language Pack
+Live Server (*필수)
+Prettier (*필수)
+
+file:///C:/Users/user/Desktop/web01/241109/index.html
+http://127.0.0.1:5501/index.html
+
+ctrl + , : VS code 환경설정
+
+zoom : Mouse Wheel Zoom Check
+wrap : Word Wrap
+emmet : Variables
+국내 개발업계 : 2
+Tab Size : 2
+
+emmet 기능!!!
+> 복제 // 붙여넣기 등의 내장되어있는 기능
+built-in function(*내장기능)
+
+Default Formatter
+
+html5 
+
+h(n) : n => 1 ~ 6
+h1 : 큰 사이즈 => 32px
+h2 : 24px
+h3 : 19px
+h4 : 16px
+h5 : 13px
+h6 : 11px
+
+heading : 타이틀
+
+html 파일을 최초 생성 > 별다른 font-size의 값을 새롭게 정의하지 않는다면, 무조건 16px
+
+p태그 : paragraph : 문단, 단락
+
+hr태그 : 수평선을 그리고자 할 때
+
+br태그 : 인위적으로 행바꿈을 하고 싶을 때
+
+a태그 : 어디론가 이동을 시키고자 할 때
+- 외부이동
+- 내부이동
+- href 속성
+
+anchor
+
+dummy text
+
+Horizontal Ruler
+
+xhtml 태그
+
+extensible
+
+html 태그 
+1) 속성 & 값을 반드시 필요로하는 태그
+2) 속성 & 값이 없어도 되는 태그
+
+개발자들은 혼자서 단독으로 작업 x
+공동개발 // 협업
+
+공유 > git-hub 사이트
+> 오픈 소스코드
+> 
+
+
+
+

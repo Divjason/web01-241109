@@ -1,0 +1,115 @@
+1.개발자들은 절대 혼자서 웹 페이지 개발 작업 x
+
+2.개발자 프로젝트 작업
+- 보고서_최종.ppt
+- 보고서_최최종.ppt
+- 보고서_최최최종.ppt
+> 언제 어떤 목적으로 수정 작업 이해x
+> 버전 관리 & 타인과의 작업 과정 공유
+(*git 활용)
+
+> 외장하드, USB x
+
+> git(*형상기억관리 시스템 혹은 버전관리 시스템)
+
+> 로컬컴퓨터 내에서만 버전 관리 시스템
+
+> 원격저장소 필요!!!
+
+> git-hub
+
+로컬 컴퓨터 > git 설치
+
+1.git -v
+
+2.git config --list
+
+3.제어판 > 사용자 계정 > 자격증명관리자 > window 자격증명관리
+
+전역요소 : global
+> 로컬컴퓨터 어디서든 동일한 값으로 활용
+> 관리자 권한 모드
+
+지역요소 : local
+> 특정 파일 혹은 폴더 내에서만 인정하는 값으로 활용
+
+4.git 소유주 정보 입력방법
+git config --global user.name "Divjason"
+git config --global user.email "sejinpark@tcocs.com"
+git config --list
+
+5.git-hub 원격저장소
+space : repository
+
+h(n)
+p
+a
+br
+hr
+ul, ol, li
+
+semantic : 의미론적인
+header 
+footer
+aside
+section
+article
+main
+nav
+
+https://developer.mozilla.org/ko/
+
+
+https://www.w3schools.com/
+
+
+https://www.naver.com/
+
+w3c : world wide web consothium
+
+list (*목록)
+부모태그(ul / ol) > 자식태그(li)
+unorder list : 순서를 기입하지 않은 목록을 만들고자 할 때
+order list : 순서를 기입한 목록 만들고자 할 때
+list = li
+
+> 메뉴!!!
+
+6.git & git-hub 연결 및 push 하는 방법
+1.초기화 : git init
+2.연결작업 : git remote add origin "레포지토리 주소"
+- git remote -v
+3.스테이징 저장공간 활용 : git add .
+- git status
+4.커밋메세지 작성 : git commit -m "메세지이름"
+5.푸쉬 완료 : git push origin master
+
+
+ctrl + ` : vscode 터미널 오픈하는 단축키
+ctrl + , : vscode 환경설정을 오픈하는 단축키
+
+Backtick : ` '
+
+Live server : 실시간으로 코딩 정보가 바뀌어지는 앱
+
+Korean Language : 한국어 버전으로 바꿔주는 앱
+
+Material Icon Theme : 탐색기 안에 있는 파일 확장명에 따라서 아이콘 설정
+
+Prettier : 코드를 자동으로 편집해주는 포맷터
+
+htmltagwrap : 이미 구조가 갖춰진 상태에서 특정 태그를 중간에 넣고자 할 때
+
+autorenametag : 여는 태그 수정 시, 닫는 태그도 같이 수정되도록 도와주는 확장앱
+
+attribute : 속성
+value : 값
+
+position 속성값
+
+https://webgradients.com/
+
+
+
+
+

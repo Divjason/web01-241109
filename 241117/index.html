@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="http://127.0.0.1:5500" method="get">
+      <label for="userId"
+        >아이디 :
+        <input id="userId" type="text" name="name" placeholder="아이디 입력"
+      /></label>
+      <br />
+      <label for="userPw">
+        패스워드 :
+        <input
+          id="userPw"
+          type="password"
+          name="password"
+          placeholder="패스워드 입력" /></label
+      ><br />
+      <input type="file" />
+      <div>
+        <fieldset>
+          <legend>성별</legend>
+          <label for="female"
+            ><input id="female" type="radio" name="human" />여성</label
+          >
+          <label for="male"
+            ><input id="male" type="radio" name="human" />남성</label
+          >
+        </fieldset>
+      </div>
+      <div>
+        <fieldset>
+          <legend>취미</legend>
+          <label for="hobby1"
+            ><input type="checkbox" name="music" id="hobby1" />음악감상</label
+          >
+          <label for="hobby2"
+            ><input type="checkbox" name="travel" id="hobby2" />해외여행</label
+          >
+          <label for="hobby3"
+            ><input type="checkbox" name="food" id="hobby3" />맛집투어</label
+          >
+        </fieldset>
+      </div>
+      <div>
+        <input type="submit" value="로그인" />
+        <input type="submit" value="회원가입" />
+      </div>
+      <!-- <button>검색</button> -->
+      <hr />
+      <input type="color" />
+      <input type="date" />
+      <input type="number" value="1" />
+      <input type="range" />
+      <input type="time" />
+      <input type="week" />
+      <input type="email" />
+      <hr />
+      <textarea
+        style="resize: none"
+        name="userReview"
+        id="userReview"
+        placeholder="여기는 댓글창입니다"
+        rows="5"
+        cols="50"
+      ></textarea>
+      <hr />
+      <select name="program" id="program">
+        <option disabled selected value="#">선택하세요</option>
+        <option value="html">HTML5</option>
+        <option value="html">CSS3</option>
+        <option value="html">Javascript</option>
+        <option value="html">React</option>
+        <option value="html">Node.js</option>
+      </select>
+    </form>
+  </body>
+</html>

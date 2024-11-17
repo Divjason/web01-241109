@@ -1,0 +1,101 @@
+form
+> input 타입 속성에 따라서 형태/기능
+> label
+
+html 태그를 작성하는 2가지 방법
+- 상향식 방식 (*초심자)
+- 하향식 방식 (*코딩 // 개발)
+
+h(n)
+p
+a
+br
+hr
+ul, ol, li
+table, tr, th, td, thead, tbody, tfoot
+colgroup
+figure
+figcaption
+img
+audio
+video
+form
+input
+textarea
+select
+option
+label
+
+head
+footer
+main
+section
+article
+aside
+
+html5 태그 "카테고리 2개"로 나눠서 관리!!
+
+block 태그
+: 태생적으로 1줄에 본인!!!
+div(division), h(n), ul, li
+
+inline 태그
+: 태생적으로 1줄에 본인이 가지고 있는 width 외의 공간은 다른 태그들과 공유!!!
+span, label, img
+
+css 
+
++
+
+tailwind
+styled-component
+scss
+
+개발자가 되기 위해서 
+의대생 > 예과 & 본과 => 전문의 10년
+
+지금 내가 가장 만들어보고 싶은 게 뭔지?
+> 게임 // 앱 // 웹페이지 // ???
+> 취업 // 어떤 언어?
+
+html5
+css3
+scss
+JS
+TS
+React.js
+GraphQL
+React-Query
+Axios
+Redux
+Recoil
+Next.js
+Nest.js
+Node.js
+Java
+Spring
+Python : Deep // Machine
+C++
+Docker
+AWS
+Flutter
+ReactNative
+iOS
+
+wildcard Selector
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

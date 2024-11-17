@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        form {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          div {
+            margin-bottom: 10px;
+            label {
+              color: lightseagreen;
+              font-size: 14px;
+              input {
+                border: transparent;
+                border-bottom: 1px solid rgba(32, 178, 170, 0.4);
+                &::placeholder {
+                  transition: opacity 0.3s;
+                  font-size: 10px;
+                }
+                &:focus {
+                  outline: none;
+                  border-bottom: 1px solid rgba(32, 178, 170, 1);
+                  &::placeholder {
+                    opacity: 0;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <form action="http://127.0.0.1:5500" method="get">
+      <fieldset>
+        <legend>학사정보 조회서비스</legend>
+        <div>
+          <label for="userName">
+            이름
+            <input
+              type="text"
+              name="userName"
+              id="userName"
+              placeholder="이름입력"
+            />
+          </label>
+        </div>
+        <div>
+          <label for="userNumber">
+            학번
+            <input
+              type="text"
+              name="userNumber"
+              id="userNumber"
+              placeholder="학번입력"
+            />
+          </label>
+        </div>
+        <div>
+          <label for="userMajor">
+            학과
+            <input
+              type="text"
+              name="userMajor"
+              id="userMajor"
+              placeholder="학과입력"
+            />
+          </label>
+        </div>
+      </fieldset>
+      <input type="submit" value="조회하기" />
+    </form>
+  </body>
+</html>

@@ -7,14 +7,42 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <a href="https://band.us/ko" target="_blank">
-        <img src="./images/logo-band.png" alt="logo" />
-      </a>
-    </header>
-    <div class="login">
-      <h1>로그인</h1>
-      <input class="btn" type="button" value="휴대폰 번호로 로그인" />
-    </div>
+    <main>
+      <header>
+        <a href="https://band.us/ko" target="_blank">
+          <img src="./images/logo-band.png" alt="logo" />
+        </a>
+      </header>
+      <section class="login">
+        <form action="#" method="get">
+          <h1>로그인</h1>
+          <input class="btn" type="button" value="휴대폰 번호로 로그인" />
+          <span>또는</span>
+          <a href="https://www.gmail.com" target="_blank">
+            <input class="btn email" type="button" value="이메일로 로그인" />
+          </a>
+          <a href="https://www.naver.com" target="_blank"
+            ><input class="btn naver" type="button" value="네이버로 로그인"
+          /></a>
+          <a href="https://www.facebook.com" target="_blank"
+            ><input
+              class="btn facebook"
+              type="button"
+              value="페이스북으로 로그인"
+          /></a>
+          <a href="https://line.me/ko/" target="_blank"
+            ><input class="btn line" type="button" value="라인으로 로그인"
+          /></a>
+          <div class="login-footer">
+            <input type="checkbox" name="loginstatus" id="status" />
+            <label for="status">로그인 상태 유지</label>
+            <p>
+              밴드가 처음이신가요?
+              <a href="https://band.us/ko" target="_blank">회원가입</a>
+            </p>
+          </div>
+        </form>
+      </section>
+    </main>
   </body>
 </html>

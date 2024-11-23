@@ -1,0 +1,40 @@
+Root Folder
+> Live Server
+> img source 상대경로 || 절대경로
+> deploy 
+
+주석 처리 = notation
+
+1.무언가 실수하는 것에 두려워 x
+
+2.완벽 x
+
+3.IT 영역 무진장
+> CSS 선택자
+- 전체선택자
+- 동위선택자
+- 클래스선택자
+- 아이디선택자
+- 일반구조선택자
+- 상태구조선택자
+- 부정선택자
+- 문자선택자
+- 반응선택자
+
+id => 무조건 문서상 1밖에 사용 x
+
+class => 동일한 스타일의 CSS 속성값을 복수의 요소 (*태그)에게 적용!!!
+
+class = "btn"
+5개의 input 버튼 width / height / opacity / color
+
+https://github.com/Divjason/web01-241109
+
+https://fontawesome.com/
+
+
+
+
+
+
+

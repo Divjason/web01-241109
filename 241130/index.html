@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./script.js"></script>
+    <title>Document</title>
+    <style>
+      * {
+        font-size: 30px;
+      }
+
+      /* h1 {
+        color: #f00;
+      } */
+
+      p {
+        font-size: 14px;
+      }
+
+      .bgColor {
+        background: #00f;
+      }
+
+      input {
+        border: 2px solid #000;
+      }
+
+      #unique {
+        border: 2px solid #f00;
+      }
+
+      #header h1 {
+        color: #ff0;
+      }
+
+      #family > h1 + h2 {
+        color: #f00;
+      }
+
+      #family > h1 ~ h2 {
+        background: orange;
+      }
+
+      ul,
+      li {
+        list-style: none;
+      }
+
+      ul {
+        display: flex;
+        & > li {
+          padding: 15px;
+          &:nth-child(2n) {
+            background: #ff0003;
+          }
+          &:nth-child(2n + 1) {
+            background: #800;
+          }
+          &:first-child {
+            color: #fff;
+          }
+          &:last-child {
+            color: #fff;
+          }
+        }
+      }
+
+      #family2 {
+        & > h2:last-of-type {
+          color: #f00;
+        }
+        & > h3:first-of-type {
+          color: #f00;
+        }
+        & > h3:nth-of-type(2) {
+          background: tomato;
+        }
+      }
+
+      #action {
+        &:hover {
+          color: #f00;
+        }
+        &:active {
+          background: #00f;
+        }
+      }
+
+      form {
+        input {
+          &:enabled {
+            background: teal;
+          }
+          &:disabled {
+            background: tomato;
+          }
+          &:focus {
+            background: orange;
+          }
+        }
+      }
+
+      input[type="checkbox"]:checked + div {
+        background: gray;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+        &:link::after {
+          content: " - " attr(href);
+        }
+      }
+      #family3 {
+        input:not([type="password"]) {
+          background: #f00;
+        }
+      }
+
+      #container {
+        p {
+          counter-increment: rint;
+          &::before {
+            content: counter(rint) ".";
+          }
+          &::after {
+            content: " - " attr(data-page) " page";
+          }
+          &::first-line {
+            color: #f00;
+          }
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>lorem Ipsum</h1>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
+      deleniti commodi officiis veniam quam dolores odio expedita perferendis
+      aut. Rerum obcaecati libero cupiditate corporis asperiores dolore
+      voluptatibus nesciunt, alias hic.
+    </p>
+    <hr />
+    <form action="#">
+      <input id="unique" class="bgColor" type="text" name="" />
+      <input class="bgColor" type="password" name="" id="" />
+      <div class="bgColor">여기는 DIV입니다.</div>
+      <button class="bgColor">여기는 버튼입니다.</button>
+    </form>
+    <hr />
+    <div id="header">
+      <h1 class="title">Lorem</h1>
+      <div id="nav">
+        <h1>Navigation</h1>
+      </div>
+    </div>
+    <hr />
+    <div id="family">
+      <h1>Header - 1</h1>
+      <h2>header - 2</h2>
+      <h2>header - 2</h2>
+      <h2>header - 2</h2>
+      <h2>header - 2</h2>
+    </div>
+    <hr />
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>5</li>
+      <li>6</li>
+      <li>7</li>
+    </ul>
+    <hr />
+    <div id="family2">
+      <h1>Header - 1</h1>
+      <h2>Header - 2</h2>
+      <h3>Header - 3</h3>
+      <h3>Header - 3</h3>
+      <h2>Header - 2</h2>
+      <h1>Header - 1</h1>
+    </div>
+    <hr />
+    <h1 id="action">User Action Event</h1>
+    <hr />
+    <form action="#">
+      <h2>Enabled</h2>
+      <input type="text" />
+      <h2>Disabled</h2>
+      <input type="text" disabled />
+    </form>
+    <hr />
+    <input type="checkbox" name="checkbtn" id="checkbtn" />
+    <div>
+      <h1>Lorem Ipsum</h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde nam
+        libero, facere molestiae amet nostrum ea aperiam distinctio dolores
+        accusamus qui numquam, harum ipsa magni suscipit. Aspernatur esse nemo
+        perferendis. Odio ipsa facilis non at et impedit qui quia maxime
+        obcaecati a eius asperiores, numquam accusamus quas magnam corporis
+        cumque! Sit temporibus maxime veniam vitae amet laudantium earum quia
+        blanditiis. Cum labore id dolores sed est dignissimos distinctio rerum
+        magni deleniti excepturi, libero autem corporis asperiores quibusdam hic
+        vitae inventore nulla quia voluptatum incidunt! Voluptatem autem eaque
+        magni asperiores in. Perferendis quo totam itaque atque vero quos
+        quaerat enim odio! Rerum numquam natus, dolores dignissimos aspernatur
+        recusandae consequuntur vero modi eaque odio nam dolor. Excepturi fugit
+        ducimus quae quisquam cumque.
+      </p>
+    </div>
+    <hr />
+    <h1><a>Nothing</a></h1>
+    <h1><a href="https://www.naver.com">NAVER</a></h1>
+    <hr />
+    <div id="family3">
+      <input type="password" name="password" id="" />
+      <input type="text" name="" id="" />
+      <input type="password" name="" id="" />
+      <input type="text" name="" id="" />
+    </div>
+    <hr />
+    <div id="container">
+      <h1>Lorem Ipsum</h1>
+      <p data-page="52">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid,
+        consectetur quia vitae blanditiis dolores fuga maiores enim!
+        Necessitatibus, vitae quisquam nostrum et pariatur corrupti ducimus eum
+        asperiores, quis ratione accusantium. Veniam impedit repellat,
+        consectetur totam doloremque incidunt sint velit labore magni vel,
+        reiciendis aspernatur in. Sint, sapiente eveniet necessitatibus incidunt
+        voluptatem sunt reiciendis, iste laboriosam reprehenderit voluptate,
+        eaque unde inventore. Ducimus obcaecati necessitatibus voluptatum velit,
+        ut consectetur nobis rerum quam at quidem inventore eaque repudiandae?
+        Doloribus quo incidunt, vel voluptatem illo optio quia modi ipsum culpa
+        molestiae perspiciatis excepturi quas. Quo fuga autem incidunt possimus
+        eligendi, ut nemo fugit neque quae asperiores et voluptatem ullam
+        sapiente tempora quas nihil unde deleniti numquam adipisci minima vitae
+        dolorum molestiae officia laboriosam! Quos? Illo aspernatur, unde sequi
+        voluptatum laudantium nam perferendis amet suscipit nostrum consequuntur
+        ea nihil laborum magni iusto nobis asperiores, magnam aliquid! Corporis
+        alias, eius culpa delectus placeat atque mollitia consequuntur?
+      </p>
+      <p data-page="273">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam rem
+        sapiente quo autem quisquam excepturi, dignissimos voluptates nihil
+        distinctio adipisci omnis doloremque perferendis consectetur alias
+        similique totam ad. Mollitia, esse? Quas, maiores? Neque qui pariatur
+        tempore aperiam magni minus ducimus reprehenderit! Natus velit non
+        repellendus, numquam cupiditate similique aspernatur aliquam qui unde
+        repellat, quaerat libero perspiciatis iste eum voluptatibus ipsam.
+        Numquam, vero dolor quos odio eligendi voluptatem reiciendis similique
+        animi labore quisquam optio necessitatibus ipsum provident laudantium
+        natus amet sed perspiciatis libero tenetur perferendis. Voluptatem qui
+        atque accusantium quas quod?
+      </p>
+    </div>
+  </body>
+</html>

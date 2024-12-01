@@ -1,0 +1,141 @@
+1.HTML5 = Hyper Text Markup Language
+
+1) 주요  Tag
+- h / p / a / li / table / br / hr / img / video / audio / form 등
+
+2) 공간분할 Tag
+- block VS inline
+
+3) Semantic Tag
+- header / section / article / aside / footer 등
+
+4) Roblox Page
+
+2.CSS3 = Cascading Style Sheet
+
+1) inline 스타일시트 / 내부 스타일시트 / 외부 스타일시트
+
+2) 선택자 14종
+- 전체선택자
+- 태그선택자
+- id선택자
+- class선택자
+- 동위선택자
+- 구조선택자 : 일반구조선택자 / 형태구조선택자
+- 속성선택자
+- 후손선택자
+- 자손선택자
+- 문자선택자
+- 반응선택자
+- 링크선택자
+- 부정선택자
+- 상태선택자
+
+3) CSS 주요속성
+- 단위 : px / em / rem / % / vw / vh 등
+
+- rem : root element //  현재 문서에서 가장 최상위 부모요소에 폰트 사이즈 값을 정의해놓고, 해당 폰트사이즈를 기준으로 몇 배수의 값을 사용할 것인지 의미
+
+- em : element 약자 = 요소!!! => 부모요소가 가지고 있는 값의 몇배수를 사용할 것인가를 의미
+
+- px : 고정 값을 의미
+
+- 가변그리드 : margin // padding => %
+
+- vw : viewport width 
+
+- vh : viewport height
+
+- scrollHeight
+- innerHeight
+- outerHeight
+- offsetTop
+
+- 색상 : 
+> 컬러이름을 적용
+> rgb 색상 조합
+> hex 코드 입력
+> hsl 색상 조합
+
+CS
+> 인간은 10진수 // 10진법 : 1~10 기본수 => 배수
+> 컴퓨터는 2진수 // 0, 1 => 비트 
+> 8개 비트 => 1바이트 => 2의 8제곱근
+> 컴퓨터를 문자 // 색상 // => 자료형 => 컴퓨터 메모리 공간 저장
+
+1 ~ 256
+0 ~ 255
+
+컴퓨터는  0, 1를 기반으로 바이너리 코드 기본적으로 사용!!
+복잡한 기능을 처리할 때에는 16진수
+0 ~ 9 + A ~ F
+
+2 16 => 216 + 216 => 256
+
+255
+
+- 가시속성
+> display : 공간 자체를 없애버린다는 차이점
+- none : 보이지 않도록 하는 속성
+- inline : 좌.우 마진.패딩 적용 // 상.하 마진.패딩 적용
+
+> visibility : transition 전환 속성값을 부여
+- visible : 요소를 브라우저 출력
+- hidden : 요소를 브라우저에서 보이지 x
+
+> opacity : transition 전환 속성값을 부여
+- 0 ~ 1 : 0에 수렴할 수록 100% 투명 // 1에 수렴할 수록 100% 불투명
+
+- 박스속성
+> border-box : 최초에 정의한 컨텐츠의 너비, 높이값안에 보더의 두께, 내부 여백들을 포함시켜서 최초에 정의한 컨텐츠의 값을 그대로 유지!!!
+
+> content-box : 최초에 정의한 컨텐츠의 너비, 높이값을 무조건 보장 + 보더의 두께 + 내부 여백 패딩값을 추가!!!
+
+- 보더속성
+border-width: 5px;
+border-style: dashed;
+border-color: #000;
+> border 축약형 사용 가능!!
+border-radius: 50px 40px 30px 20px;
+
+- 배경속성
+        /* background-color: #e7e7e8;
+        background-image: url("./img/BackgroundFront.png"),
+          url("./img/BackgroundBack.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: bottom; */
+        background: url("./img/BackgroundFront.png") bottom/100% no-repeat fixed,
+          #e7e7e8 url("./img/BackgroundBack.png") bottom/100% no-repeat fixed;
+
+- 폰트속성
+> font-size : 16px / h1 32px
+> font-weight
+> font-family
+
+OTF // TTF
+
+OTF : Open Type Font
+
+TTF : True Type Font
+- 1980년대 
+- 마이크로소프트사 + 애플
+- VS 어도비
+- 2차 베지에(*불어) => 곡선
+
+
+OTF : Open Type Font
+- 1990년대
+- 마이크로소프트사 + 어도비
+- VS 애플
+- 3차 베지에(*불어) => 곡선
+
+OTF
+
+
+
+
+
+
+

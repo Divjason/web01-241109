@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        /* box-sizing: border-box; */
+      }
+      body {
+        font-size: 16px;
+        width: 100vw;
+        /* height: 100vh; */
+        /* border: 5px solid #f00; */
+      }
+      #h1 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 16px;
+        font-weight: bold;
+      }
+      #percent {
+        font-size: 200%;
+        /* color: rgba(255, 0, 0, 1); */
+        color: #f00;
+      }
+      #box {
+        display: inline-block;
+        /* visibility: visible; */
+        /* opacity: 0; */
+        background: #00f;
+        margin: 15px;
+      }
+      .box-sample {
+        width: 200px;
+        height: 200px;
+        background: #f00;
+
+        /* border: 5px solid #000; */
+        border-width: 5px;
+        border-style: dashed;
+        border-color: #000;
+        border-radius: 50px 40px 30px 20px;
+
+        padding: 20px;
+        &.first {
+          box-sizing: border-box;
+        }
+        &.second {
+          box-sizing: content-box;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>heading - 1</h1>
+    <p id="h1">heading - 1</p>
+    <h2>heading - 2</h2>
+    <h3>heading - 3</h3>
+    <h4>heading - 4</h4>
+    <p>heading - 4</p>
+    <p id="percent">heading - 4</p>
+    <h5>heading - 5</h5>
+    <h6>heading - 6</h6>
+    <hr />
+    <span>Dummy</span>
+    <div id="box">
+      <span>Lorem ipsum</span>
+    </div>
+    <span>Dummy</span>
+    <hr />
+    <div class="box-sample first">1</div>
+    <br />
+    <div class="box-sample second">2</div>
+  </body>
+</html>

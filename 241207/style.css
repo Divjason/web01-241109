@@ -1,0 +1,63 @@
+/* reset */
+@import url("./reset.css");
+
+/* variants */
+@import url("./variants.css");
+
+/* commont */
+body {
+  font-size: 18px;
+}
+
+/* contents */
+#container {
+  width: 100%;
+  header {
+    width: 100%;
+    border-bottom: 1px solid var(--main-border-color);
+    .inner {
+      width: 1180px;
+      height: 120px;
+      margin: 0 auto;
+      position: relative;
+      h1 {
+        position: absolute;
+        left: 0;
+        bottom: 15px;
+        a {
+          color: var(--logo-text-color);
+          font: bold 1.3rem/1 "arial";
+        }
+      }
+      #gnb {
+        display: flex;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        li > a {
+          display: inline-block;
+          padding: 0 10px;
+          color: var(--gnb-text-color);
+          font: normal 0.7rem/1 "arial";
+        }
+      }
+      #lnb {
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        li > a {
+          color: var(--lnb-text-color);
+          display: inline-block;
+          padding: 20px 40px;
+          font: bold 0.8rem/1 "arial";
+          transition: background 0.3s, color 0.3s;
+          &:hover {
+            background: var(--lnb-text-color);
+            color: var(--main-light-color);
+          }
+        }
+      }
+    }
+  }
+}

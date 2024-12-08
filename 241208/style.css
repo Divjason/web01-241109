@@ -1,0 +1,183 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+
+/* reset */
+@import url("./reset.css");
+
+/* variants */
+@import url("./variants.css");
+
+/* common */
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  &.member1 {
+    background: #ebfaff;
+    main {
+      .profile {
+        img {
+          box-shadow: 5px 15px 30px rgba(173, 216, 230, 0.8);
+        }
+        .btnView {
+          background: linear-gradient(45deg, #4affff, #35e0f7);
+          box-shadow: 5px 10px 20px rgba(0, 255, 255, 0.5);
+        }
+      }
+    }
+  }
+  &.member2 {
+    background: #ebffeb;
+    main {
+      .profile {
+        img {
+          box-shadow: 5px 15px 30px #bdccb7;
+        }
+        .btnView {
+          background: linear-gradient(45deg, #a0ff9d, #55f5b2);
+          box-shadow: 5px 10px 20px rgba(33, 250, 105, 0.5);
+        }
+      }
+    }
+  }
+  &.member3 {
+    background: #fff3fd;
+    main {
+      .profile {
+        img {
+          box-shadow: 5px 15px 30px rgba(252, 99, 214, 0.4);
+        }
+        .btnView {
+          background: linear-gradient(45deg, #ef74ff, #ff11c4);
+          box-shadow: 5px 10px 20px rgba(255, 17, 196, 0.5);
+        }
+      }
+    }
+  }
+  &.member4 {
+    background: #f5f0ff;
+    main {
+      .profile {
+        img {
+          box-shadow: 5px 15px 30px rgba(160, 17, 255, 0.4);
+        }
+        .btnView {
+          background: linear-gradient(45deg, #8e74ff, #a011ff);
+          box-shadow: 5px 10px 20px rgba(160, 17, 255, 0.5);
+        }
+      }
+    }
+  }
+}
+
+/* contents */
+main {
+  width: 320px;
+  padding: 30px;
+  background: var(--main-light-color);
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a {
+      font-size: 1.1rem;
+      color: var(--nav-icon-color);
+    }
+  }
+  .profile {
+    width: 100%;
+    text-align: center;
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      box-shadow: 5px 15px 30px rgba(173, 216, 230, 0.8);
+    }
+    h1 {
+      font: bold 1.2rem/1 var(--orbitron-font-family);
+      color: var(--nav-icon-color);
+    }
+    h2 {
+      font: normal 0.6rem/1 "arial";
+      color: var(--sub-font-color);
+      margin: 5px 0 30px;
+    }
+    .btnView {
+      display: block;
+      width: 180px;
+      height: 32px;
+      color: var(--main-light-color);
+      margin: 0 auto 20px;
+      font: bold 0.6rem/32px var(--orbitron-font-family);
+      border-radius: 16px;
+    }
+  }
+  .contact {
+    width: 100%;
+    margin-bottom: 25px;
+    li {
+      width: 100%;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--border-main-color);
+      a {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        i {
+          display: inline-block;
+          width: 20%;
+          text-align: center;
+          text-shadow: 2px 2px 2px var(--border-main-color);
+          font-size: 0.9rem;
+        }
+        span {
+          font: normal 0.8rem/1 var(--orbitron-font-family);
+        }
+      }
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+  .others {
+    width: 100%;
+    text-align: center;
+    a {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin: 0 10px;
+      opacity: 0.4;
+      filter: saturate(0.7);
+      &.on {
+        opacity: 1;
+        filter: saturate(1);
+      }
+      &:nth-child(1) {
+        background: var(--first-member-color);
+        box-shadow: 5px 5px 10px rgba(74, 255, 255, 0.7);
+      }
+      &:nth-child(2) {
+        background: var(--second-member-color);
+        box-shadow: 5px 5px 10px rgba(85, 245, 178, 0.7);
+      }
+      &:nth-child(3) {
+        background: var(--third-member-color);
+        box-shadow: 5px 5px 10px rgba(255, 128, 223, 0.7);
+      }
+      &:nth-child(4) {
+        background: var(--fourth-member-color);
+        box-shadow: 5px 5px 10px rgba(167, 148, 253, 0.7);
+      }
+    }
+  }
+}

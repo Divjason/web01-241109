@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      main {
+        width: 300px;
+        height: 400px;
+        background: tomato;
+        position: relative;
+        div {
+          width: 200px;
+          height: 100px;
+          border: 1px solid #fff;
+          text-align: center;
+          line-height: 100px;
+          background: yellowgreen;
+          &:nth-child(2) {
+            background: cyan;
+            opacity: 0.8;
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+          }
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </main>
+  </body>
+</html>

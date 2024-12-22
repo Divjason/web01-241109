@@ -1,7 +1,10 @@
 :root {
   --orbitron-font-family: "Orbitron", serif;
+  --main-border-color: #aaa;
   --main-font-color: #ddd;
   --sub-font-color: #ccc;
+  --accent-font-color: #bbb;
   --main-bg-color: #000;
   --main-light-color: #fff;
+  --main-sentence-color: #999;
 }

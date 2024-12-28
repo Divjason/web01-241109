@@ -1,0 +1,45 @@
+1.flex 속성을 사용하는 이유
+
+- 다양해진 device에 대응할 수 있는 responsive web 페이지 구현 필요!!!
+
+- 기존 float 속성을 활용해서 레이아웃 정렬을 했던데 반해, 불편 & 비효율
+
+2.flex 속성을 사용하려면 반드시 부모 요소에 display: flex 속성값을 부여!!!
+
+3.flex 속성은 중심축 & 교차축 개념
+- 기본적으로 중심축 : 가로 = 행
+- 기본적으로 교차축 : 세로 = 열
+
+4.justify-content 중심축을 기준으로 정렬
+- flex-start
+- flex-end
+- center
+- space-between : 좌.우측 아이템을 끝으로 보낸 후 정렬하는 방식
+- space-around : 각각의 아이템 좌.우측 여백을 동일하게 설정
+- space-evenly : 아이템간 간격을 일정하게 설정
+
+5.align-items 교차축을 기준으로 정렬
+
+
+flex-direction : column
+justify-content : 가로 정렬 x
+
+fontawesome : Library => script 태그를 문서상에 무조건 설치
+1) Official Homepage : script를 가져오는 방법
+2) Cdn (Contents Delivery Network) : script를 가져오는 방법
+> Cdn을 통해서 script를 가져오게 되면, i 태그에 대한 css 스타일이 적용되지 x
+
+BOM : Browser Object Model
+> DOM요소를 읽고 출력할 수 있도록 브라우저가 가지고있는 객체 모델
+> window
+
+DOM : Document Object Model
+> 개발자가 작성한 html, css, js의 문서구조 형태
+> html, css => 객체 형태의 자료구조 변환
+> script라는 언어가 쉽게 가져다가 사용할 수 있도록 해줍니다.
+> document
+
+780
+520
+
+
